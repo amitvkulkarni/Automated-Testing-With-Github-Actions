@@ -1,4 +1,4 @@
-# Load the libraries
+# Load the the required libraries
 import pandas as pd
 import pytest
 
@@ -32,3 +32,6 @@ def test_PropertyArea():
 # Test for checking if Loan Amount is more than 500
 def test_LoanAmount():
     assert df[df['LoanAmount'] > 600].shape[0]  == 0
+
+
+# New test cases to be added
